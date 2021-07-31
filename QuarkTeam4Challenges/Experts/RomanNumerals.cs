@@ -19,7 +19,7 @@ namespace QuarkTeam4Challenges.Experts
            // http://csharphelper.com/blog/2016/04/convert-to-and-from-roman-numerals-in-c/
 
      */
-    class RomanNumerals
+    public class RomanNumerals
     {
         public static int ParseRomanNumeral(string num)
         {
