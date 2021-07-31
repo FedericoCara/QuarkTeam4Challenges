@@ -62,6 +62,13 @@ namespace QuarkTeam4Challenges
             Console.WriteLine(RomanNumerals.ParseRomanNumeral("XXIX"));
             Console.WriteLine(RomanNumerals.ParseRomanNumeral("CMXCIX"));
             Console.WriteLine(RomanNumerals.ParseRomanNumeral("MMMDCCCLXXXVIII"));
+
+            Console.WriteLine("----------------------------------------------");
+
+            Console.WriteLine("Binary Clock");
+            BuildingBinaryClock.BinaryClock("10:37:49");
+
+
         }
     }
 
