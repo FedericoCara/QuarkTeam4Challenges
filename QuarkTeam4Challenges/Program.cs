@@ -1,4 +1,5 @@
-﻿using QuarkTeam4Challenges.VeryDificult;
+﻿using QuarkTeam4Challenges.Experts;
+using QuarkTeam4Challenges.VeryDificult;
 using System;
 
 namespace QuarkTeam4Challenges
@@ -54,6 +55,13 @@ namespace QuarkTeam4Challenges
                 }
                 Console.WriteLine();
             }
+
+            Console.WriteLine("----------------------------------------------");
+
+            Console.WriteLine("Roman Numerals");
+            Console.WriteLine(RomanNumerals.ParseRomanNumeral("XXIX"));
+            Console.WriteLine(RomanNumerals.ParseRomanNumeral("CMXCIX"));
+            Console.WriteLine(RomanNumerals.ParseRomanNumeral("MMMDCCCLXXXVIII"));
         }
     }
 
