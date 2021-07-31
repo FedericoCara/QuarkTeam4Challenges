@@ -131,3 +131,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+*.v2
+.vs/QuarkTeam4Challenges/v16/.suo
+QuarkChallengesTests/bin/Debug/netcoreapp3.1/CoverletSourceRootsMapping
