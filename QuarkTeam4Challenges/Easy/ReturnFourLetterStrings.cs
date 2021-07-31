@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace QuarkTeam4Challenges.Easy
 {
     //Create a function that takes an array of strings and returns the words that are
     //exactly four letters.
-
 
     public class ReturnFourLetterStrings
     {

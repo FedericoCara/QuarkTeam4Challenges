@@ -72,9 +72,7 @@ namespace QuarkTeam4Challenges
 
             Console.WriteLine("----------------------------------------------");
 
-            Console.WriteLine("Return four letters");
-            string[] words = { "Tomato", "Potato", "Pair" };
-            ReturnFourLetterStrings.FourLetterStrings(words);
+            var result = VowelReplacer.VowelReplacerMethod("the aardvark", '#');
 
 
         }
