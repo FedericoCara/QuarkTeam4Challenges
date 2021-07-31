@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using QuarkTeam4Challenges.Expert;
 
-namespace QuarkTeam4Challenges.Experts
+namespace QuarkChallengesTests
 {
     /* https://edabit.com/challenge/DZL7PpHQyPvkYiyDL
      * A binary clock displays the time of day in binary format. 
@@ -24,7 +25,7 @@ namespace QuarkTeam4Challenges.Experts
 
             var result = BuildingBinaryClock.BinaryClock("10:16:17");
 
-            Assert.Equals(result, correctResult);
+            CollectionAssert.AreEqual(result, correctResult);
         }
         
     }

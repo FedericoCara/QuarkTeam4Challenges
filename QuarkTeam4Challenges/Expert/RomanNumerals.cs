@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace QuarkTeam4Challenges.Experts
+namespace QuarkTeam4Challenges.Expert
 {
     /*
      * Create a function that takes in a Roman numeral as a string and converts it to an integer, returning the result. 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace QuarkTeam4Challenges.Experts
+namespace QuarkTeam4Challenges.Expert
 {
     /* https://edabit.com/challenge/DZL7PpHQyPvkYiyDL
      * A binary clock displays the time of day in binary format. 
