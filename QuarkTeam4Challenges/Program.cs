@@ -71,8 +71,8 @@ namespace QuarkTeam4Challenges
 
 
             Console.WriteLine("----------------------------------------------");
-
-            var result = VowelReplacer.VowelReplacerMethod("the aardvark", '#');
+            int[] numbers = new []{ 10, 5, 1, 2, 4, 6, 8, 3, 9 };
+            var result = FindMissingNumber.FindMissingNumberMethod(numbers);
 
 
         }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QuarkTeam4Challenges.Expert;
 using System;
-namespace QuarkChallengesTest {
+namespace QuarkChallengesTests {
     [TestClass] public class RomanNumeralsTests 
     {
         [TestMethod] public void Returns_1() 

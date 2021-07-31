@@ -134,3 +134,5 @@ _NCrunch*
 *.v2
 .vs/QuarkTeam4Challenges/v16/.suo
 QuarkChallengesTests/bin/Debug/netcoreapp3.1/CoverletSourceRootsMapping
+*.testlog
+.vs/QuarkTeam4Challenges/v16/TestStore/0/002.testlog
