@@ -15,8 +15,7 @@ namespace QuarkTeam4Challenges.Expert
      * C -> 100     CD -> 400
      * D -> 500     CM -> 900
      * M -> 1000
-     * 
-           // http://csharphelper.com/blog/2016/04/convert-to-and-from-roman-numerals-in-c/
+     *
 
      */
     public class RomanNumerals
@@ -37,12 +36,8 @@ namespace QuarkTeam4Challenges.Expert
 
             for (int i = num.Length - 1; i >= 0; i--) {
                 current = romanos[num[i]];
-                if (current < last) {
-                    total -= current;
-                } else {
-                    total += current;
-                    last = current;
-                }
+                total = current < last ? total - current : total + current;
+                last = current;
             }
 
             return total;
