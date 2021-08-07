@@ -38,15 +38,15 @@ namespace QuarkTeam4Challenges.VeryDificult
             }
         }
 
-            //MCD
         private int MCD(int num1, int num2)
         {
             int min = Math.Min(num1, num2);
             int mcd = 0;
 
-            for (int i = 1; i <= min; i++) {
+            for (int i = min; i >= 1; i--) {
                 if (num1 % i == 0 && num2 % i == 0) {
                     mcd = i;
+                    break;
                 }
             }
             return mcd;
