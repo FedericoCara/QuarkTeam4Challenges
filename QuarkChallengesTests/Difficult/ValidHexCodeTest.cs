@@ -88,16 +88,5 @@ namespace QuarkChallengesTests {
             //Assert
             Assert.IsTrue(resultado);
         }
-
-        [TestMethod]
-        public void Template() {
-            //Arrange
-
-
-            //Act
-
-            //Assert
-
-        }
     } 
 }

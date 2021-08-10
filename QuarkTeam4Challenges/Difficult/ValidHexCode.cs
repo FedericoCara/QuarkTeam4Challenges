@@ -30,19 +30,12 @@ namespace QuarkTeam4Challenges.Difficult
                 return false;
             }
 
-            char currentChar;
-            for (int i = 1; i < str.Length; i++) 
-            {
-                currentChar = str[i];
-                if (!char.IsLetterOrDigit(currentChar) || currentChar > 70 && currentChar < 97 || currentChar > 102)
-                   return false;
-            }
-
-            return true;
+            int result;
+            return int.TryParse(str.Substring(1), System.Globalization.NumberStyles.HexNumber, null, out result);
         }
 
     }
 
-    // Tiempo estimado: 30 minutes
-    // Tiempo real: 
+    // Tiempo estimado: 30 minutos
+    // Tiempo real: 50 minutos
 }
